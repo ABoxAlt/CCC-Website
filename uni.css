@@ -94,6 +94,8 @@ footer {
 #headerImg {
   height: 380px;
   width: auto;
+  max-width: 80%;
+  max-height: auto;
 
   padding-left: 50px;
   padding-right: 50px;
@@ -135,4 +137,5 @@ footer {
 
 .sepLine {
   width: 500px;
+  max-width: 80%;
 }
