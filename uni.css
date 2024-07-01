@@ -77,6 +77,7 @@ footer {
   height: 50px;
   width: auto;
   position: absolute;
+  visibility: visible;
 }
 
 /* This is for the background. I recorded the gif so there shouldn't be problems there.*/
@@ -136,6 +137,16 @@ footer {
 
 
 .sepLine {
-  width: 500px;
+  width: 700px;
   max-width: 80%;
+}
+
+/* For disabling elements of the page*/
+.disable {
+  visibility: hidden;
+}
+
+/* For when the navbar is diabled */
+.navImgPadding {
+  padding-left: 50px;
 }
