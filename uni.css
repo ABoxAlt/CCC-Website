@@ -69,7 +69,7 @@ footer {
 }
 
 /* Changes the color when the links are hovered over*/
-.navbarLink:hover, .navbarLinkPrime:hover, #homeLink:hover, .link:hover {
+.navbarLink:hover, .navbarLinkPrime:hover, #homeLink:hover, .link:hover, #navMenuItems li a:hover {
   color:#9cc7e4;
 }
 
@@ -164,7 +164,39 @@ footer {
   width: 40px;
   height: auto;
   background-color: transparent;
+}
 
+#navMenuBackground {
+  background: #0d2c42;
+  top: 120px;
+  width: 90%;
+  height: 220px;
+  border-radius: 25px;
+  position: absolute;
+}
+
+#navMenuItems {
+  list-style: none;
+}
+
+#navMenuItems li {
+  margin-bottom: 25px;
+}
+
+#navMenuItems li a {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 40px;
+  color: #9ba8b1;
+}
+
+.disable {
+  visibility: hidden;
+}
+
+.enable {
+  visibility: visible;
 }
 
 @media (max-width: 910px) {
