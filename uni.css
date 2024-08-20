@@ -3,13 +3,11 @@ html, body, .content { height: 100%; width: 100%; margin: 0; }
 
 body {
   background-color: #040b10;
-  height: 100vh;
-  width: 100vw;
+
 }
 
 footer {
   background-color: #040b10;
-  width: 100%;
   height: 50px;
 }
 
@@ -30,12 +28,11 @@ footer {
 
 .navbar {
   height: 65px;
-  width: 100%;
   position: absolute;
   top:10px;
   left: 0px;
   padding-top: 15px;
-  padding-left: 30px;
+  margin-left: 30px;
   background-color: #040b10;
 }
 
@@ -45,7 +42,7 @@ footer {
   font-size: 40px;
   text-align: left;
   margin-top: -37px;
-  padding-left: 65px;
+  margin-left: 65px;
   color: #9ba8b1;
 }
 
@@ -113,7 +110,6 @@ footer {
   max-width: 800px;
 
   padding-left: 50px;
-  padding-right: 50px;
 }
 /* For the generic text*/
 .text {
@@ -126,7 +122,6 @@ footer {
   max-width: 700px;
 
   padding-left: 50px;
-  padding-right: 50px;
 }
 
 /* Like the body tag, however it ignores the navbar and footer*/
