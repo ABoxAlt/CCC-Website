@@ -36,8 +36,9 @@ footer {
   background-color: #040b10;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 .navbarText {
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family:'IBM Plex Sans';
   font-weight: bold;
   font-size: 40px;
   text-align: left;
@@ -101,7 +102,7 @@ footer {
 
 /* This is for the header of the page */
 .headerText {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'IBM Plex Sans';
   font-size: 60px;
   color: #9ba8b1;
 
@@ -113,7 +114,7 @@ footer {
 }
 /* For the generic text*/
 .text {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'IBM Plex Sans';
   font-size: 25px;
   color:#9ba8b1;
 
@@ -179,7 +180,7 @@ footer {
 }
 
 #navMenuItems li a {
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'IBM Plex Sans';
   font-weight: bold;
   text-decoration: none;
   font-size: 40px;
